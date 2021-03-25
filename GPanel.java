@@ -111,8 +111,8 @@ public class GPanel extends JPanel implements ActionListener {
                 case "With Walls":
                     g.setColor(Color.BLUE);
                     g.fillRect(wall1X, wall1Y, UNIT_SIZE, UNIT_SIZE);
-                    g.fill3DRect(wall2X, wall2Y, UNIT_SIZE, UNIT_SIZE, true);
-                    g.fill3DRect(wall3X, wall3Y, UNIT_SIZE, UNIT_SIZE, false);
+                    g.fillRect(wall2X, wall2Y, UNIT_SIZE, UNIT_SIZE);
+                    g.fillRect(wall3X, wall3Y, UNIT_SIZE, UNIT_SIZE);
                     break;
             }
             //draw snake
